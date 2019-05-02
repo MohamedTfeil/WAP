@@ -18,6 +18,7 @@ header{
 .div1{
     background-image: url("rbg.png");
     background-repeat: repeat-x;
+    overflow: auto;
 }
 body{
     font-family: Verdana, Tahoma, sans-serif;
@@ -28,34 +29,54 @@ body{
     color: red;
     font-weight: bold;
     font-size: 48pt;
+    overflow: auto;
 }
-section{
+.main{
     width: 800px;
     border : 4px gray solid;
     border-radius: 20px;
-    position: absolute;
-   left: 25%;
+    overflow: auto;
+
+  
     margin: auto;
+    position: relative;
 
 
 }
 .big{
-    column-count: 3;
-    column-gap: 20px;
+    display: block;
+    overflow: auto;
+}
+.first{
+   float: left;
+    width: 70%;
+    overflow: auto;
 }
 .column{
     float: left;
     width: 200px;
-
+    padding-left: 8px;
 }
 .review{
     border : 2px gray solid;
     background-color: #E8DC9B;
     border-radius: 10px;
     padding-left: 8px;
+    float: left;
 }
-aside{
+.righitAside{
     float: right;
-    display: block;
-    right: 0px;
+
+    width: 30%;
+    background-color: #A2B964;
+}
+.footer{
+    background-color: #A2B964;
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    text-align: center;
+}
+.validator{
+    float: right;
 }
