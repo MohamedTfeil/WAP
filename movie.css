@@ -1,0 +1,61 @@
+h1{
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+
+    text-shadow: 3px 3px #999999;
+}
+header{
+    background-image: url("bannerbg.png");
+    background-repeat: repeat-x;
+}
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div1{
+    background-image: url("rbg.png");
+    background-repeat: repeat-x;
+}
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    background-image: url("background3.png");
+}
+.str1{
+    color: red;
+    font-weight: bold;
+    font-size: 48pt;
+}
+section{
+    width: 800px;
+    border : 4px gray solid;
+    border-radius: 20px;
+    position: absolute;
+   left: 25%;
+    margin: auto;
+
+
+}
+.big{
+    column-count: 3;
+    column-gap: 20px;
+}
+.column{
+    float: left;
+    width: 200px;
+
+}
+.review{
+    border : 2px gray solid;
+    background-color: #E8DC9B;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+aside{
+    float: right;
+    display: block;
+    right: 0px;
+}
