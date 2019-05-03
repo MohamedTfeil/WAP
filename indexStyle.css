@@ -1,0 +1,9 @@
+img{
+    border-radius: 10000px;
+}
+li a{
+    border : 1px blue dashed;
+    background-color: aqua;
+    border-radius: 10px;
+    padding-left: 8px;
+}

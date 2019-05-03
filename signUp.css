@@ -1,0 +1,35 @@
+fieldset{
+    width: 450px;
+    border : 2px outset gray;
+    border-radius: 10px;
+    background-color: #E0E0FF;
+    display: table;
+
+}
+p{
+    display: table-row;
+}
+
+label{
+    float: none;
+    width: auto;
+    display: table-cell;
+
+}
+
+
+a{
+    color: red;
+}
+legend{
+    background-color: white;
+    border: 2px outset gray;
+    padding: 0.2em;
+}
+input[type=submit]{
+
+    background-color: #FAA;
+    font-size: 120%;
+    font-weight: bold;
+    display: table-cell;
+}
